@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background-image: url("../Recursos/Background.jpeg");
+    padding:5em;
+    background-size: cover; 
+    position: relative;  
+
+}
+
+
+.menu-container {
+    background-color: #f7f7f7;
+    display: flex;  
+    align-items: center; 
+    width: 62em ;
+    margin-left: 15em;
+    height: 5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b3b3b3
+    
+
+}
+nav li {
+    list-style-type: none;
+    margin-right: 4em;
+    height: 100;
+
+}
+.logo-container {
+    margin-right: 10em;
+}
+nav li:hover {
+    background-color: #9ed033;
+}
+.price-container {
+    margin-top: 9em;
+    background-color: #ffff;
+    height: 14em;
+    width: 18em;
+    padding-top: 2em;
+    margin-left: 15em;
+
+}
+.price-value-container {
+    background-color: #e54746;
+    color : #ffff;
+    font-size: 2em;
+    margin:1em;
+    text-align: center;
+}
+.venice-container  {
+    margin-left: 6em;
+}
+.venice-text-container {
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.countries-container {
+ display: flex;
+ margin-top:3.2em;
+ width: 62em;
+ 
+ 
+}
+.country{
+   background-color: #9ed033;
+   margin-right: 3em;
+   color:#f1ffca;
+   padding-top: 1em;
+   padding-left:5em ;
+   padding-right:4.5em ;
+} 
+.countries-info-container{
+    display: flex;
+
+    position: absolute;  
+    z-index: 2; 
+    margin-top:5em;
+    margin-left:15em;
+
+
+
+}
+
+.countries-info {
+margin-right: 3em;
+}
+
+.countries-info p{
+    color:#9ed033
+}
+.countries-info a{
+    text-decoration: none;
+    color: #e54746;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.button1{
+    background-color: #9ed033;
+    border: 0px;
+    width: 130px; /* Adjust width as needed */
+  height: 25px;
+  color: white;
+  margin-left: 3em;
+
+}
+.button-1 {
+    background-color: #9ed033;
+    border: 0px;
+    width: 190px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  color: white;
+}
+.button-2 {
+    background-color: #9ed033;
+    border: 0px;
+    width: 212px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    color: white;
+}
+.button-3 {
+    background-color: #9ed033;
+    border: 0px;
+    width: 230px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    color: white;
+}
+.button-4 {
+    background-color: #9ed033;
+    border: 0px;
+    width: 200px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    color: white;
+}
+
+.father{
+ background-color:white ;
+  display: flex;
+  position: absolute;
+  margin-top: 25em;
+
+  z-index: 4; 
+}
+.son{
+    border: .5px solid #dedede;
+    padding: 3em;
+    flex-grow: 2; 
+    flex-basis: 1; 
+    min-width: 50px; 
+
+}
+.lastLogo {
+    position: absolute;
+    z-index: 4; 
+    margin-top: 40em;
+    margin-left: 15em;
+
+}
